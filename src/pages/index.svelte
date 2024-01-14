@@ -1,6 +1,6 @@
 <script>
   import Product from '../components/Product.svelte';
-  import { fetchProducts, fetchSections, createProduct } from '../libs/libs';
+  import { fetchProducts, fetchSections, createProduct } from '../lib/libs';
   import { onMount } from 'svelte';
   import { page } from '@roxi/routify';
 

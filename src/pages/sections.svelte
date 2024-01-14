@@ -1,6 +1,6 @@
 <script>
   import Section from '../components/Section.svelte';
-  import { fetchSections } from '../libs/libs';
+  import { fetchSections } from '../lib/libs';
   import { page } from '@roxi/routify';
 
   let modalOpen = false;
